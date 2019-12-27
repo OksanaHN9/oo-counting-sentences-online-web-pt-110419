@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    "HI." .end_with.(".")
+    "HI." .end_with?(".")
   end
 
   def question?
@@ -11,7 +11,7 @@ class String
   end
 
   def exclamation?
-     "Hi!" .end_with!("!")
+     "Hi!" .end_with?("!")
   end
 
   def count_sentences
